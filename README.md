@@ -48,3 +48,9 @@ Then paste this URL into your player:
 ```
 http://[SERVER_IP]:8000/ttvplaylist/ttvplaylist.m3u
 ```
+
+Alternative (VLC)
+-----------------
+Open VLC and open network stream with address `http://SERVER:8000/pid/ACESTREAM_ID/stream.mp4`
+Where SERVER is the IP address you saw earlier on the command line and the ACESTREAM_ID is the acestream id
+e.g. `http://192.168.99.100:8000/pid/983a3e2b00512a85430bbd1300b6c8d4abac11c7/stream.mp4`
